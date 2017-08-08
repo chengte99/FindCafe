@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14C0EDA58D52C153C004FFA1 /* Pods_FindCafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5FB3D92782E482C1C33C69 /* Pods_FindCafe.framework */; };
 		DD40A1571F38BEEA003C5619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40A1561F38BEEA003C5619 /* AppDelegate.swift */; };
 		DD40A1591F38BEEA003C5619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40A1581F38BEEA003C5619 /* ViewController.swift */; };
 		DD40A15C1F38BEEA003C5619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD40A15A1F38BEEA003C5619 /* Main.storyboard */; };
 		DD40A15E1F38BEEA003C5619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD40A15D1F38BEEA003C5619 /* Assets.xcassets */; };
 		DD40A1611F38BEEA003C5619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD40A15F1F38BEEA003C5619 /* LaunchScreen.storyboard */; };
+		DD40A16D1F38BFAE003C5619 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40A16C1F38BFAE003C5619 /* MapViewController.swift */; };
+		DD40A16F1F38BFD2003C5619 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40A16E1F38BFD2003C5619 /* APIManager.swift */; };
+		DD40A1711F38BFED003C5619 /* Constrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40A1701F38BFED003C5619 /* Constrant.swift */; };
+		DD40A1731F38C01C003C5619 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40A1721F38C01C003C5619 /* DetailCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124A0D2D33AE3B5090074B97 /* Pods-FindCafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCafe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindCafe/Pods-FindCafe.debug.xcconfig"; sourceTree = "<group>"; };
+		B7BA995AFECB7B3F76982C4F /* Pods-FindCafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCafe.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindCafe/Pods-FindCafe.release.xcconfig"; sourceTree = "<group>"; };
+		DC5FB3D92782E482C1C33C69 /* Pods_FindCafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD40A1531F38BEEA003C5619 /* FindCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD40A1561F38BEEA003C5619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD40A1581F38BEEA003C5619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		DD40A15D1F38BEEA003C5619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD40A1601F38BEEA003C5619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD40A1621F38BEEA003C5619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD40A16C1F38BFAE003C5619 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DD40A16E1F38BFD2003C5619 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DD40A1701F38BFED003C5619 /* Constrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrant.swift; sourceTree = "<group>"; };
+		DD40A1721F38C01C003C5619 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C0EDA58D52C153C004FFA1 /* Pods_FindCafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACFF3C11EE3BC158B6EA70FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5FB3D92782E482C1C33C69 /* Pods_FindCafe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD40A14A1F38BEE9003C5619 = {
 			isa = PBXGroup;
 			children = (
 				DD40A1551F38BEEA003C5619 /* FindCafe */,
 				DD40A1541F38BEEA003C5619 /* Products */,
+				F29F34FCAE21C6B55AC84932 /* Pods */,
+				ACFF3C11EE3BC158B6EA70FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +77,10 @@
 		DD40A1551F38BEEA003C5619 /* FindCafe */ = {
 			isa = PBXGroup;
 			children = (
+				DD40A16B1F38BF15003C5619 /* View */,
+				DD40A16A1F38BF0F003C5619 /* Manager */,
+				DD40A1691F38BEFB003C5619 /* Model */,
+				DD40A1681F38BEF0003C5619 /* Controller */,
 				DD40A1561F38BEEA003C5619 /* AppDelegate.swift */,
 				DD40A1581F38BEEA003C5619 /* ViewController.swift */,
 				DD40A15A1F38BEEA003C5619 /* Main.storyboard */,
@@ -64,6 +91,47 @@
 			path = FindCafe;
 			sourceTree = "<group>";
 		};
+		DD40A1681F38BEF0003C5619 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD40A16C1F38BFAE003C5619 /* MapViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DD40A1691F38BEFB003C5619 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DD40A16A1F38BF0F003C5619 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DD40A16E1F38BFD2003C5619 /* APIManager.swift */,
+				DD40A1701F38BFED003C5619 /* Constrant.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		DD40A16B1F38BF15003C5619 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD40A1721F38C01C003C5619 /* DetailCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F29F34FCAE21C6B55AC84932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				124A0D2D33AE3B5090074B97 /* Pods-FindCafe.debug.xcconfig */,
+				B7BA995AFECB7B3F76982C4F /* Pods-FindCafe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD40A1651F38BEEA003C5619 /* Build configuration list for PBXNativeTarget "FindCafe" */;
 			buildPhases = (
+				BB45B5EE64CDE4741C62DD54 /* [CP] Check Pods Manifest.lock */,
 				DD40A14F1F38BEEA003C5619 /* Sources */,
 				DD40A1501F38BEEA003C5619 /* Frameworks */,
 				DD40A1511F38BEEA003C5619 /* Resources */,
+				FB8390CF6C729A4CE2CAB7A3 /* [CP] Embed Pods Frameworks */,
+				1E972047673754B71C7157C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +203,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E972047673754B71C7157C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindCafe/Pods-FindCafe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB45B5EE64CDE4741C62DD54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8390CF6C729A4CE2CAB7A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindCafe/Pods-FindCafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD40A14F1F38BEEA003C5619 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD40A1711F38BFED003C5619 /* Constrant.swift in Sources */,
+				DD40A16F1F38BFD2003C5619 /* APIManager.swift in Sources */,
 				DD40A1591F38BEEA003C5619 /* ViewController.swift in Sources */,
+				DD40A16D1F38BFAE003C5619 /* MapViewController.swift in Sources */,
 				DD40A1571F38BEEA003C5619 /* AppDelegate.swift in Sources */,
+				DD40A1731F38C01C003C5619 /* DetailCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +384,12 @@
 		};
 		DD40A1661F38BEEA003C5619 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124A0D2D33AE3B5090074B97 /* Pods-FindCafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S4BK872249;
 				INFOPLIST_FILE = FindCafe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letsgobuildapp.FindCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,10 +399,12 @@
 		};
 		DD40A1671F38BEEA003C5619 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BA995AFECB7B3F76982C4F /* Pods-FindCafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S4BK872249;
 				INFOPLIST_FILE = FindCafe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letsgobuildapp.FindCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +431,7 @@
 				DD40A1671F38BEEA003C5619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
